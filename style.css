@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background-image: linear-gradient(#000044, #004400);
+  background-repeat: no-repeat;
+  width: 100wv;
+  height: 100wv;
+}
+
+.topbar {
+    width: 100vw;
+    height: 65px;
+    background-color: rgba(1, 1, 1 ,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.toplogooutline {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+.toplogo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-image: url("Logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+ .topname {
+   color: white;
+   padding-left: 7px;
+   font-family: Arial Rounded MT;
+   }
