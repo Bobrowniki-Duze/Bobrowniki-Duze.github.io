@@ -61,14 +61,14 @@ body {
    color: white;
    font-family: Nunito;
    display: flex;
-   font-size: 1.5rem;
+   font-size: 5rem;
    align-items: center;
    justify-content: center;
   }
   
   i {
       color: white;
-      font-size: 1em; 
+      font-size: 4.5em; 
       margin-right: 7px;
   }
   
@@ -80,7 +80,7 @@ body {
   }
   
   .card p {
-   font-size: 1rem;
+   font-size: 3rem;
   }
   
   .btn {
