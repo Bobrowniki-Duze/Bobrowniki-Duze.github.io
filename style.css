@@ -4,10 +4,23 @@ html, body {
   }
 
 body {
-  background-image: linear-gradient(#000044, #004400);
+  background-image: linear-gradient(#0000ff, #009900);
   background-repeat: no-repeat;
-  width: 100wv;
-  height: 100wv;
+}
+
+.site {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    padding: 7px;
+}
+
+@media (min-width: 768px){
+   .content {
+       display: flex;
+   }
 }
 
 .topbar {
@@ -30,8 +43,8 @@ body {
   }
   
 .toplogo {
-  width: 28px;
-  height: 28px;
+  width: 27px;
+  height: 27px;
   border-radius: 50%;
   background-image: url("Logo.png");
   background-repeat: no-repeat;
@@ -41,5 +54,44 @@ body {
  .topname {
    color: white;
    padding-left: 7px;
-   font-family: Arial Rounded MT;
+   font-family: Comfortaa;
    }
+   
+  .title {
+   color: white;
+   font-family: Nunito;
+   display: flex;
+   font-size: 25px;
+   aligin-items: center;
+  }
+  
+  i {
+      color: white;
+      font-size: 28px; 
+      margin-right: 7px;
+  }
+  
+  .card {
+      background-color: rgba(1, 1, 1 ,0.20);
+      padding: 10px;
+      border-radius: 15px;
+      margin: 7px;
+  }
+  
+  .btn {
+      background-color: #0077ff;
+      font-family: Outfit;
+      color: white;
+      display: flex;
+      justify-content: center;
+      aligin-items: center;
+      padding: 5px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+.btn:hover {
+  transform: scale(1.05); /* Zwiększenie rozmiaru diva przy najechaniu */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
