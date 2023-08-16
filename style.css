@@ -61,13 +61,14 @@ body {
    color: white;
    font-family: Nunito;
    display: flex;
-   font-size: 25px;
-   aligin-items: center;
+   font-size: 1.5rem;
+   align-items: center;
+   justify-content: center;
   }
   
   i {
       color: white;
-      font-size: 28px; 
+      font-size: 1em; 
       margin-right: 7px;
   }
   
@@ -76,6 +77,10 @@ body {
       padding: 10px;
       border-radius: 15px;
       margin: 7px;
+  }
+  
+  .card p {
+   font-size: 1rem;
   }
   
   .btn {
